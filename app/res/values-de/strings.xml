@@ -1,5 +1,4 @@
-<?xml version="1.0" encoding="utf-8"?>
-<!--
+<?xml version="1.0" encoding="utf-8"?><!--
   Copyright 2012 GitHub Inc.
 
   Licensed under the Apache License, Version 2.0 (the "License");
@@ -18,7 +17,7 @@
 
     <!-- Error messages -->
     <string name="error_orgs_load">Laden von Konto &amp; Organisation fehlgeschlagen</string>
-    <string name="error_issues_load">Laden der Probleme fehlgeschlagen</string>
+    <string name="error_issues_load">Laden der Tickets fehlgeschlagen</string>
     <string name="error_repos_load">Laden der Repositories fehlgeschlagen</string>
     <string name="error_repo_load">Laden des Repositories fehlgeschlagen</string>
     <string name="error_contributors_load">Laden der Mitwirkenden fehlgeschlagen</string>
@@ -29,7 +28,7 @@
     <string name="error_person_load">Laden der Person fehlgeschlagen</string>
     <string name="error_gist_file_load">Laden der Dateiinhalte des Gists fehlgeschlagen</string>
     <string name="error_gists_load">Laden der Gists fehlgeschlagen</string>
-    <string name="error_issue_load">Laden der Probleme fehlgeschlagen</string>
+    <string name="error_issue_load">Laden der Tickets fehlgeschlagen</string>
     <string name="error_collaborators_load">Laden der Mitarbeiter fehlgeschlagen</string>
     <string name="error_milestones_load">Laden der Meilensteine fehlgeschlagen</string>
     <string name="error_labels_load">Laden der Markierungen fehlgeschlagen</string>
@@ -44,20 +43,23 @@
     <string name="error_unfollowing_person">Entfolgen fehlgeschlagen</string>
     <string name="error_checking_following_status">Prüfen des Folgestatus fehlgeschlagen</string>
     <string name="error_starring_repository">Favorisieren fehlgeschlagen</string>
-    <string name="error_unstarring_repository">Entfernen des Favoriten fehlgeschlagen</string>
+    <string name="error_unstarring_repository">Defavorisieren fehlgeschlagen</string>
+    <string name="error_forking_repository">Forking fehlgeschlagen</string>
+    <string name="error_deleting_repository">Löschen fehlgeschlagen</string>
     <string name="error_checking_starring_status">Prüfen des Favoritenstatus fehlgeschlagen</string>
     <string name="error_rendering_markdown">Rendern der Markdown-Vorschau fehlgeschlagen</string>
     <string name="error_users_search">Suche nach Usern fehlgeschlagen</string>
     <!--  -->
 
+
     <!-- Loading messages -->
     <string name="loading_gist">Lade Gist…</string>
     <string name="random_gist">Lade zufälligen Gist…</string>
-    <string name="loading_more_issues">Lade weitere Probleme…</string>
-    <string name="loading_issues">Lade Probleme…</string>
+    <string name="loading_more_issues">Lade weitere Tickets…</string>
+    <string name="loading_issues">Lade Tickets…</string>
     <string name="loading_comments">Lade Kommentare…</string>
     <string name="loading_repositories">Lade Repositories…</string>
-    <string name="loading_issue">Lade Problem…</string>
+    <string name="loading_issue">Lade Ticket…</string>
     <string name="loading_news">Lade Neuigkeiten…</string>
     <string name="loading_followers">Lade Anhänger…</string>
     <string name="loading_people">Lade Personen…</string>
@@ -70,11 +72,12 @@
     <string name="loading_refs">Lade Branches &amp; Tags…</string>
     <!--  -->
 
+
     <!-- Empty messages -->
     <string name="no_bookmarks">Keine Lesezeichen</string>
     <string name="no_repositories">Keine Repositories</string>
     <string name="no_contributors">Keine Mitwirkende</string>
-    <string name="no_issues">Keine Probleme</string>
+    <string name="no_issues">Keine Tickets</string>
     <string name="no_gists">Keine Gists</string>
     <string name="no_people">Keine Personen</string>
     <string name="no_followers">Keine Anhänger</string>
@@ -83,20 +86,23 @@
     <string name="no_commits">Keine Commits</string>
     <!--  -->
 
+
     <!-- Updating messages -->
     <string name="updating_assignee">Aktualisiere Verantwortlichen…</string>
-    <string name="updating_issue">Aktualisiere Problem…</string>
+    <string name="updating_issue">Aktualisiere Ticket…</string>
     <string name="updating_labels">Aktualisiere Markierungen…</string>
     <string name="updating_milestone">Aktualisiere Meilensteine…</string>
     <!--  -->
 
     <string name="app_name">GitHub</string>
+    <string name="home">Home</string>
     <string name="news">Neuigkeiten</string>
-    <string name="issues">Probleme</string>
+    <string name="issues">Tickets</string>
     <string name="gists">Gists</string>
     <string name="commits">Commits</string>
+    <string name="global_search">GitHub Suche</string>
     <string name="find_repositories">Repositories suchen</string>
-    <string name="find_issues">Probleme finden</string>
+    <string name="find_issues">Tickets finden</string>
     <string name="search_title">Suchen…</string>
     <string name="clear_search_history">Historie leeren</string>
     <string name="search_history_cleared">Suchhistorie geleert</string>
@@ -119,20 +125,21 @@
     <string name="bookmark">Lesezeichen hinzufügen</string>
     <string name="comment">Kommentar</string>
     <string name="delete">Löschen</string>
+    <string name="delete_cap">LÖSCHEN</string>
     <string name="refresh">Aktualisieren</string>
-    <string name="dashboard_issues_title">Problem-Übersicht</string>
+    <string name="dashboard_issues_title">Ticket-Übersicht</string>
     <string name="bookmarks">Lesezeichen</string>
     <string name="gists_title">Gists</string>
-    <string name="issue_title">Problem #</string>
+    <string name="issue_title">Ticket #</string>
     <string name="pull_request_title">Pull Request #</string>
     <string name="gist_title">Gist\u0020</string>
-    <string name="filter_issues_title">Probleme filtern</string>
+    <string name="filter_issues_title">Tickets filtern</string>
     <string name="create_comment_title">Kommentar erstellen</string>
     <string name="comment_hint">Ihren Kommentar eingeben</string>
     <string name="show_more">Mehr zeigen…</string>
     <string name="repositories">Repositories</string>
     <string name="contributors">Mitwirkende</string>
-    <string name="issues_title">Probleme</string>
+    <string name="issues_title">Tickets</string>
     <string name="edit_labels">Markierungen bearbeiten</string>
     <string name="milestone_prefix">Meilenstein:</string>
     <string name="edit_milestone">Meilenstein bearbeiten</string>
@@ -141,13 +148,15 @@
     <string name="gist_description_hint">erstellt mit Android</string>
     <string name="title">Titel</string>
     <string name="edit">Bearbeiten</string>
-    <string name="starring_gist">Füge Gist als Favorit hinzu…</string>
-    <string name="unstarring_gist">Entferne favorisierten Gist…</string>
+    <string name="starring_gist">Favorisiere Gist…</string>
+    <string name="unstarring_gist">Defavorisiere Gist…</string>
     <string name="accounts_label">Konten</string>
     <string name="select_assignee">Verantwortlichen wählen</string>
     <string name="select_milestone">Meilenstein wählen</string>
     <string name="select_labels">Markierung wählen</string>
     <string name="select_ref">Branch oder Tag wählen</string>
+    <string name="enter_otp_code_title">Authentifizierungsschlüssel</string>
+    <string name="enter_otp_code_message">Zwei-Fakto Authentifizierung ist für Ihren Account aktiviert.Geben Sie Ihren Authentifizierungschlüssel zur Verifizierung Ihrer Identität ein.</string>
     <string name="no_milestone">Keine Meilensteine</string>
     <string name="unassigned">Niemand zugewiesen</string>
     <string name="assigned">ist zugewiesen</string>
@@ -156,9 +165,13 @@
     <string name="confirm_gist_delete_message">Sind Sie sicher, dass Sie diesen Gist löschen möchten?</string>
     <string name="deleting_gist">Lösche Gist…</string>
     <string name="creating_comment">Erstelle Kommentar…</string>
+    <string name="editing_comment">Editiere Kommentar…</string>
+    <string name="deleting_comment">Lösche Kommentar…</string>
+    <string name="confirm_comment_delete_title">Remove Comment</string>
+    <string name="confirm_comment_delete_message">Are you sure you want to delete this Comment?</string>
     <string name="confirm_bookmark_delete_message">Sind Sie sicher, dass Sie dieses Lesezeichen löschen möchten?</string>
-    <string name="issue_dashboard">Problem-Übersicht</string>
-    <string name="new_issue">Neues Problem</string>
+    <string name="issue_dashboard">Ticket-Übersicht</string>
+    <string name="new_issue">Neues Ticket</string>
     <string name="anonymous">Anonym</string>
     <string name="message_filter_saved">Filter als Lesezeichen gespeichert</string>
     <string name="recently_viewed">ZULETZT ANGESEHEN</string>
@@ -175,7 +188,9 @@
     <string name="section_issue_labels">Markierungen:</string>
     <string name="log_in">Einloggen</string>
     <string name="signup_link">Neu bei GitHub? &lt;a href=\"https://github.com/join\">Hier klicken&lt;/a> um sich anzumelden</string>
+    <string name="signup_link_two_factor_auth">Nicht sicher was zu tun ist? &lt;a href=\"https://help.github.com/articles/about-two-factor-authentication\">Hilfe bekommen.&lt;/a></string>
     <string name="connection_failed">Kann nicht zu GitHub verbinden</string>
+    <string name="code_authentication_failed">Authentifizierung fehlgeschlagen! Falscher Verifizierungsschlüssel</string>
     <string name="invalid_login_or_password">Bitte geben Sie einen gültigen Login &amp; Passwort an</string>
     <string name="invalid_password">Bitte geben Sie ein gültiges Passwort an.</string>
     <string name="password">Passwort</string>
@@ -187,19 +202,20 @@
     <string name="follow">Folgen</string>
     <string name="unfollow">Entfolgen</string>
     <string name="star">Favorisieren</string>
-    <string name="unstar">Favorit entfernen</string>
+    <string name="unstar">Defavorisieren</string>
+    <string name="fork">Fork</string>
     <string name="members">Mitglieder</string>
-    <string name="closing_issue">Schließe Problem…</string>
-    <string name="reopening_issue">Problem neu öffnen…</string>
+    <string name="closing_issue">Schließe Ticket…</string>
+    <string name="reopening_issue">Ticket neu öffnen…</string>
     <string name="avatar">Avatar</string>
-    <string name="creating_issue">Erstelle Problem…</string>
+    <string name="creating_issue">Erstelle Ticket…</string>
     <string name="prefix_created">erstellt\u0020</string>
     <string name="prefix_updated">aktualisiert\u0020</string>
     <string name="prefix_opened">eröffnet\u0020</string>
     <string name="clear">Leeren</string>
     <string name="pull_request_commits">Commits: %d</string>
-    <string name="open_issues">Offene Probleme</string>
-    <string name="closed_issues">Geschlossene Probleme</string>
+    <string name="open_issues">Offene Tickets</string>
+    <string name="closed_issues">Geschlossene Tickets</string>
     <string name="confirm_bookmark_delete_title">Lesezeichen entfernen</string>
     <string name="save">Speichern</string>
     <string name="apply">Annehmen</string>
@@ -207,10 +223,10 @@
     <string name="assignee">Verantwortlicher</string>
     <string name="milestone">Meilenstein</string>
     <string name="labels">Markierungen</string>
-    <string name="issue_confirm_close_message">Sind Sie sicher, dass Sie dieses Problem schließen möchten?</string>
-    <string name="issue_confirm_reopen_message">Sind Sie sicher, dass Sie dieses Problem neu öffnen möchten?</string>
-    <string name="issue_confirm_close_title">Problem schließen</string>
-    <string name="issue_confirm_reopen_title">Problem neu öffnen</string>
+    <string name="issue_confirm_close_message">Sind Sie sicher, dass Sie dieses Ticket schließen möchten?</string>
+    <string name="issue_confirm_reopen_message">Sind Sie sicher, dass Sie dieses Ticket neu öffnen möchten?</string>
+    <string name="issue_confirm_close_title">Ticket schließen</string>
+    <string name="issue_confirm_reopen_title">Ticket neu öffnen</string>
     <string name="closed">Geschlossen</string>
     <string name="no_description_given">Keine Beschreibung angegeben.</string>
     <string name="close">Schließen</string>
@@ -218,6 +234,7 @@
     <string name="title_invalid_github_url">Ungültige GitHub URL</string>
     <string name="message_invalid_github_url">Die folgende URL konnte von der Anwendung nicht geöffnet werden:\n{0}</string>
     <string name="cancel">Abbrechen</string>
+    <string name="not_sure">NICHT SICHER</string>
     <string name="authenticator_conflict_title">App Konflikt</string>
     <string name="authenticator_conflict_message">Eine andere App ist derzeit für die Anmeldung bei GitHub konfiguriert.\n\nSie müssen diese App aus dem Bereich Konten &amp; Synchronisierung entfernen und diese App deinstallieren, bevor Sie die GitHub App verwenden können.</string>
     <string name="opening_repository">Öffne {0}…</string>
@@ -235,8 +252,10 @@
     <string name="code">Code</string>
     <string name="following_user">Folgen…</string>
     <string name="unfollowing_user">Entfolgen…</string>
-    <string name="starring_repository">Favorisieren…</string>
-    <string name="unstarring_repository">Favorit entfernen…</string>
+    <string name="starring_repository">Favorisiere Repository…</string>
+    <string name="unstarring_repository">Defavorisiere Repository…</string>
+    <string name="forking_repository">Forking…</string>
+    <string name="deleting_repository">Löschen…</string>
     <string name="navigate_to">Navigiere zu…</string>
     <string name="navigate_to_user">Navigiere zu %s</string>
     <string name="contributions">%d Commits</string>
@@ -252,7 +271,7 @@
     <string name="tab_members">Mitglieder</string>
     <string name="tab_code">Code</string>
     <string name="tab_commits">Commits</string>
-    <string name="tab_issues">Probleme</string>
+    <string name="tab_issues">Tickets</string>
     <string name="tab_watched">beobachtet</string>
     <string name="tab_assigned">zugewiesen</string>
     <string name="tab_created">erstellt</string>
@@ -261,12 +280,28 @@
     <string name="tab_starred">favoriten</string>
     <string name="tab_all">alle</string>
     <!--  -->
-
     <string name="share">Teilen</string>
     <string name="show_password">Passwort anzeigen</string>
     <string name="write">Schreiben</string>
     <string name="preview">Vorschau</string>
     <string name="show_raw_markdown">Zeige reines Markdown</string>
     <string name="render_markdown">Zeige gerendertes Markdown</string>
+
+    <string name="copy_hash">Hash kopieren</string>
+    <string name="toast_msg_copied">In Zwischenablage kopiert</string>
+
+    <!-- Navigation drawer strings -->
+    <string name="navigation_drawer_open">Öffne navigation drawer</string>
+    <string name="navigation_drawer_close">Schließe navigation drawer</string>
+    <string name="navigation_drawer_subheader">Untertitel</string>
+
+    <!-- Deleting repo -->
+    <string name="are_you_sure">Sind sich absolut sicher?</string>
+    <string name="unexpected_bad_things">Diese Aktion kann NICHT rückgängig gemacht werden.
+        Dies wird dauerhaft das Repository, das Wiki, die Tickets, Kommentare
+        und zusätzlich alle Mitarbeiterverbände löschen.</string>
+    <string name="delete_successful">Repository ist gelöscht</string>
+
+    <string name="login_or_email">Benutzername oder E-Mail-Adresse</string>
 
 </resources>
